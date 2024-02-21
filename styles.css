@@ -1,0 +1,145 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* About section styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#about img {
+    width: 200px; /* Adjust image width as needed */
+    border-radius: 50%; /* Make the image round */
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Skills section styles */
+#skills {
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* Projects section styles */
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 20px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Resume and Contact section styles */
+#resume, #contact {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    #about img {
+        width: 150px;
+    }
+
+    #skills li {
+        font-size: 12px;
+    }
+
+    .project h3 {
+        font-size: 18px;
+    }
+
+    .project p {
+        font-size: 14px;
+    }
+}
+
+/* Responsive layout for smaller screens */
+@media only screen and (max-width: 768px) {
+    #projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+}
