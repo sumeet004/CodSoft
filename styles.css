@@ -15,8 +15,8 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
+ background-color: #001f3f; /* Dark blue background color */
+    color: #fff; 
     text-align: center;
     padding: 20px;
 }
@@ -97,9 +97,9 @@ header p {
 }
 
 /* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
+footer { background-color: #001f3f; /* Dark blue background color */
+    color: #fff; 
+   
     padding: 20px;
     text-align: center;
 }
